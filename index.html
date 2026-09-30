@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Agar website responsif di HP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Portfolio - Ramos Joan</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ================================================= -->
+    <!-- NAVBAR -->
+    <!-- ================================================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <!-- Nama / Logo -->
+        <a class="navbar-brand fw-bold text-white" href="#home"> RamosJoan </a>
+
+        <!-- Tombol menu pada HP -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="#home"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about"> Tentang Saya </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#project"> Project </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================================================= -->
+    <!-- HERO / HOME -->
+    <!-- ================================================= -->
+
+    <section id="home" class="bg-primary text-white py-5 text-center">
+      <div class="container py-5">
+        <!-- Teks dengan animasi mengetik -->
+        <h1 class="display-4 fw-bold">
+          <span id="typingText"></span><span>|</span>
+        </h1>
+
+        <p class="lead text-white mt-3">Mahasiswa Teknik Komputer</p>
+
+        <p class="text-white">Politeknik Negeri Medan</p>
+
+        <!-- Tombol -->
+        <a href="#about" class="btn btn-light btn-lg mt-3"> Tentang Saya </a>
+      </div>
+    </section>
+
+    <!-- ================================================= -->
+    <!-- TENTANG SAYA -->
+    <!-- ================================================= -->
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Tentang Saya</h2>
+
+        <div class="row align-items-center g-5">
+          <!-- FOTO -->
+          <div class="col-12 col-md-6 text-center">
+            <img
+              src="WhatsApp Image 2026-09-17 at 14.57.10.jpeg"
+              class="rounded-circle img-fluid shadow"
+              width="300"
+              alt="Foto Ramos Joan"
+            />
+          </div>
+
+          <!-- DESKRIPSI -->
+          <div class="col-12 col-md-6">
+            <h3 class="fw-bold">Ramos Joan</h3>
+
+            <p class="text-muted">
+              Saya adalah mahasiswa Teknik Komputer di Politeknik Negeri Medan.
+            </p>
+
+            <p>
+              Saya memiliki ketertarikan pada teknologi, pemrograman web,
+              Internet of Things (IoT), dan pengembangan sistem komputer.
+            </p>
+
+            <p>
+              Saya terus belajar dan mengembangkan kemampuan dalam membuat
+              berbagai proyek berbasis teknologi.
+            </p>
+
+            <!-- Skill -->
+            <div class="mt-4">
+              <span class="badge bg-primary me-1"> HTML </span>
+
+              <span class="badge bg-primary me-1"> Bootstrap </span>
+
+              <span class="badge bg-success me-1"> IoT </span>
+
+              <span class="badge bg-dark me-1"> MySQL </span>
+
+              <span class="badge bg-warning text-dark"> Python </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================= -->
+    <!-- PROJECT & KEAHLIAN -->
+    <!-- ================================================= -->
+
+    <section id="project" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-2">Project & Keahlian</h2>
+
+        <p class="text-center text-muted mb-5">
+          Beberapa bidang yang saya pelajari
+        </p>
+
+        <div class="row g-4">
+          <!-- CARD 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <div class="display-5 mb-3">💻</div>
+
+                <h5 class="card-title fw-bold">Pemrograman Web</h5>
+
+                <p class="card-text text-muted">
+                  Membuat website menggunakan HTML, CSS, JavaScript, dan
+                  Bootstrap.
+                </p>
+
+                <span class="badge bg-primary"> Web Development </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <div class="display-5 mb-3">🤖</div>
+
+                <h5 class="card-title fw-bold">Internet of Things</h5>
+
+                <p class="card-text text-muted">
+                  Membuat sistem IoT menggunakan ESP32, sensor, dan sistem
+                  monitoring.
+                </p>
+
+                <span class="badge bg-success"> IoT </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <div class="display-5 mb-3">🗄️</div>
+
+                <h5 class="card-title fw-bold">Database</h5>
+
+                <p class="card-text text-muted">
+                  Membuat dan mengelola database menggunakan MySQL.
+                </p>
+
+                <span class="badge bg-dark"> MySQL </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================= -->
+    <!-- FOOTER -->
+    <!-- ================================================= -->
+
+    <footer class="bg-primary text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">© 2026 Ramos Joan</p>
+
+        <small> NIM: 2405112132 </small>
+      </div>
+    </footer>
+
+    <!-- ================================================= -->
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <!-- ================================================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ================================================= -->
+    <!-- ANIMASI MENGETIK -->
+    <!-- ================================================= -->
+
+    <script>
+      const texts = ["Halo, Saya Ramos Joan", "Senang Berkenalan dengan Anda"];
+
+      let textIndex = 0;
+      let charIndex = 0;
+      let deleting = false;
+
+      function typingEffect() {
+        const element = document.getElementById("typingText");
+
+        const currentText = texts[textIndex];
+
+        /* Saat sedang mengetik */
+        if (!deleting) {
+          element.textContent = currentText.substring(0, charIndex + 1);
+
+          charIndex++;
+
+          /* Jika teks sudah selesai */
+          if (charIndex === currentText.length) {
+            deleting = true;
+
+            setTimeout(typingEffect, 1800);
+
+            return;
+          }
+        } else {
+
+        /* Saat sedang menghapus */
+          element.textContent = currentText.substring(0, charIndex - 1);
+
+          charIndex--;
+
+          /* Jika sudah terhapus semua */
+          if (charIndex === 0) {
+            deleting = false;
+
+            textIndex = (textIndex + 1) % texts.length;
+          }
+        }
+
+        setTimeout(typingEffect, deleting ? 60 : 100);
+      }
+
+      /* Jalankan animasi */
+      typingEffect();
+    </script>
+  </body>
+</html>
